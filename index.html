@@ -14,17 +14,16 @@
     <div class="container">
         <div class="unit-part">
             <h2 class="header-text">Metric/Imperial unit conversion</h2>
-            <input type="number" class="input-number" id="input-number" name="input-number" />
-            <!-- <h1 class="number-to-convert" id="number-to-convert">20</h1> -->
+            <input type="number" class="input-number" id="input-number" name="input-number" placeholder="0" />
         </div>
         <div class="conversion-part">
             <h3>Length (Meter/Feet)</h3>
-            <p><span class="display-number"></span> meters = 65.616 feet | <span class="display-number"></span> feet = 6.096 meters</p>
+            <p><span class="display-number">0</span> meters = <span id="display-feet">0.000</span> feet | <span class="display-number">0</span> feet = <span  id="display-meters">0.000</span> meters</p>
             <h3>Volume (Liters/Gallons)
             </h3>
-            <p><span class="display-number"></span> liters = 5.284 gallons | <span class="display-number"></span> gallons = 75.708 liters</p>
+            <p><span class="display-number"></span> liters = <span id="display-gallons">0.000</span> gallons | <span class="display-number"></span> gallons = <span id="display-liters">0.000</span> liters</p>
             <h3>Mass (Kilograms/Pounds)</h3>
-            <p><span class="display-number"></span> kilos = 44.092 pounds | <span class="display-number"></span> pounds = 9.072 kilos</p>
+            <p><span class="display-number"></span> kilos = <span id="display-pounds">0.000</span> pounds | <span class="display-number"></span> pounds = <span id="display-kilos">0.000</span> kilos</p>
         </div>
     </div>
 <script src="script.js"></script>
