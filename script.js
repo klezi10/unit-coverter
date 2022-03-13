@@ -7,7 +7,7 @@ const displayLiters = document.getElementById('display-liters')
 const displayPounds = document.getElementById('display-pounds')
 const displayKilos = document.getElementById('display-kilos')
 
-inputNumber.addEventListener('keyup', showInput)
+inputNumber.addEventListener('change', showInput)
 
 function showInput() {
     const number = inputNumber.value
