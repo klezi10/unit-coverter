@@ -19,6 +19,7 @@ body {
 .unit-part {
     color: #FFFFFF;
     background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    padding-bottom: 53px;
 }
 
 .conversion-part {
@@ -27,19 +28,22 @@ body {
 }
 
 .header-text {
-    padding-top: 53px;
     margin: 0;
+    padding-top: 53px;
+    padding-bottom: 64px;
     font-size: 22px;
     letter-spacing: -0.05em;
     line-height: 1.7;
     font-weight: 800;
 }
 
-.unit-to-convert {
-    font-size: 97px;
+input {
+    width: 100%;
     margin: 0;
-    padding-bottom: 50px;
-    padding-top: 64px;
+    max-width: 250px;
+    max-height: 100px;
+    text-align: center;
+    font-size: 97px;
     font-weight: 800;
     line-height: 1.2;
 }
